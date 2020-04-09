@@ -270,6 +270,7 @@ margin-block-end: 5%;
 margin-top:-27%;   
 margin-left: 7%;
 font-size: 270%;
+width:60%;
 }
 .box2-sign p{
     margin-top: 3%;
@@ -300,15 +301,15 @@ font-size: 270%;
 }
 .box3-web p{
     margin-bottom: 7%;
-    font-size: 0.7em;
+    font-size: 70%;
 }
 .box3-team p{
     margin-bottom: 7%;
-    font-size: 0.7em;
+    font-size: 70%;
 }
 .box3-support p{
     margin-bottom: 7%;
-    font-size: 0.7em;
+    font-size: 70%;
 }
 /*./BOX3*/
 
@@ -344,18 +345,13 @@ button{
 }
 .box4 p{
     color:black;
-    font-size: 0.7em;
+    font-size: 70%;
     margin-bottom: 5%;
 }
 .box4 h2{
     color: black;
     margin-bottom: 5%;
 }
-/*img .windows{
-    fill : grey;
-}*/
-
-
 #legacy{
     background-color:#c4c4c4;
     color: white;
@@ -400,7 +396,7 @@ margin-bottom: 7%;
     margin-bottom: 7%;
 }
 .footer-1 p{
-    font-size: 0.8em;
+    font-size: 80%;
     margin-bottom: 5%;
 }
 .footer-2{
@@ -409,7 +405,7 @@ margin-bottom: 7%;
 
 }
 .footer-2 p{
-    font-size: 0.8em;
+    font-size: 80%;
     margin-bottom: 5%;
 }
 .footer-3{
@@ -418,15 +414,32 @@ margin-bottom: 7%;
 margin-bottom: 7%;
 }
 .footer-3 p{
-    font-size: 0.8em;
+    font-size: 80%;
     margin-bottom: 5%;
+}
+.formulaire{
+    width:90%;
+    height:4vh;
 }
 
 /*./FOOTER*/
 
 /*TABLETTE*/
 @media (min-width: 768px) and (max-width: 1024px)
-{ /*HEADER*/
+{ 
+    p{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 425%;
+    }
+    h2{
+        font-size: 225%;
+    }
+    h3{
+        font-size: 120%;
+    }
+    /*HEADER*/
     .texte-header h1{
         margin-bottom: 1%;
         font-size: 425%;
@@ -446,34 +459,30 @@ margin-bottom: 7%;
     /*./HEADER*/
     /*BOX1*/
     /*SECTION1*/
-  .box1-1{
-padding :10%; 
- }
+.box1-1{
+    width: 100%;
+}
     .box1-1 h2{
-        width: 50%;
-        font-size: 200%;
-      
+        width: 50%; 
     }
     .box1-1 p{
-    
         font-size: 100%;
         color:grey;
-    
     }
     .box1-1-text{
         display: flex;
-        flex-wrap: wrap;
-        
-      
+        justify-content: space-between;
+        width:100%;
     }
     #box1-p1{
-        width: 50%;
+        width: 40%;
 
     }
     #box1-p2{
         width: 50%;
         display: flex;
         align-items: center;
+    
     }
     /*./SECTION1*/
     /*SECTION2*/
@@ -531,26 +540,86 @@ height: 30vh;
 }  
 /*./SECTION2*/
 /*SECTION3*/
-.box3-web{
+.box1-3-web{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content:space-between; 
 }
 .box1-3 p{
     font-size: 100%;
     }
-    .maintenance
-    .culture,
-    .performance,
-    .web{
+
+    .maintenance, 
+    .culture, 
+    .performance, 
+    .web {
         width: 40%;
  }
     
 /*./SECTION3*/
     /*./BOX1*/
     /*BOX2*/
-
+    .box2-sign h1{
+        margin-top: -4%;   
+        margin-left: 7%;
+        font-size: 420%;
+        width:40%;
+        }
+        .box2-sign p{
+            margin-top: 3%;
+            font-size: 100%;
+            margin-left: 7%;
+            width: 40%;
+        }
     /*./BOX2*/
+    /*BOX3*/
+    .box3-reason{
+        display: flex;
+        justify-content:space-between;
+        width:100%;
+    }
+    .box3-1 h2{
+        margin-bottom: 10%;
+        margin-top: 15%;
+    }
+    .box3-support p,
+    .box3-team p,
+    .box3-web p{
+        margin-bottom: 7%;
+        font-size: 100%;
+    }
+     .box3-web,
+     .box3-team,
+     .box3-support{
+         width: 30%;
+     }
+    /*./BOX3*/
+    /*BOX4*/
+.box4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.solo,
+.plan{
+    width: 40%;
+}
+.box4 p{ 
+    font-size:100%;
+}
+.box4 h2{
+    font-size: 225%;
+}
+    /*./BOX4*/
+    /*FOOTER*/
+.footer p{
+    font-size: 100%;
+}
+    /*./FOOTER*/
 }
 /*./TABLETTE */
+@media (min-width: 1024px) {
+    /*DESKTOP*/
+
+    /*./DESKTOP*/
+}
