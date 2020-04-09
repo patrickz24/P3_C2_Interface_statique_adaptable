@@ -1,10 +1,556 @@
-header{
+@font-face{
+    font-family: "Open Sans";
+ font-weight:500 600;
+  src: url(./P3_maquettes_et_images/asset/open_sans/Open_Sans/OpenSans-Regular.ttf);
+}
 
-    width: 100%;
-    height: 100vh;
-    background-image: url("/home/patrick/Bureau/P3_C2_Interface_statique_adaptable/P3_maquettes_et_images/mastehead.jpg") format(".jpg");
+*{
+    margin:0;
+font-family: 'Open Sans',;
+}
+h3, h2, h1, p{
+    color:white;
+    font-family: 'Open Sans';
+
+}
+/*HEADER*/
+
+header{
+    width: 120%;
+background-position: center;
+height:100vh;
+background: url(P3_maquettes_et_images/mastehead.jpg) no-repeat center/cover;
+   
 }
 nav{
-    height:10%;
-    background-color: brown;
+    padding: 5px;
+    padding-left: 10px;
+    display: flex;
+
 }
+.nav{
+    display: flex;
+    width: 100vh;
+    height:60px;
+   /* background-color:yellowgreen;*/
+    
+}
+nav h3{
+padding-left:10px;
+color: white;
+font-style: italic;
+font-size: 130%;
+
+}
+.texte-header{
+    width: 40%;
+    margin-left:10%;
+    margin-top: 70%;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+}
+.texte-header h1{
+    margin-bottom: 10%;
+    font-size: 300%;
+     
+}
+.texte-header p{
+    font-size: 80%;
+}
+/*./HEADER */
+
+/*BOX 1 */
+
+/*SECTION1*/
+.box1{
+    display: flex;
+    width: 100%;
+    /*height: 270vh;*/
+    /*background-color: wheat;*/
+    flex-direction: column;
+    padding: 10%;
+}
+.box1-1{
+    width: 80%;
+    /*height: 25%;*/
+    
+color: black;
+/*background-color: chartreuse;*/
+justify-content: center;
+}
+.box1-1 h2{
+    font-size: 170%;
+    margin-bottom: 6%;
+    margin-top: 15%;
+    color:black;
+}
+.box1-1 p{
+    margin-block-end: 10%;
+    font-size: 80%;
+    color:grey;
+}
+/*./SECTION1*/
+
+/*SECTION2*/
+.box1-2{
+    width: 100%;
+   /* height: 50%;*/
+   /* background-color:yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+.design{
+   
+    height: 20vh;
+    background-color:#F3989F;
+    display: flex;
+    flex-direction: column;
+    
+}
+.design h2{
+    margin-left: 6%;
+    margin-top: 6%;
+    justify-content: center;
+}
+.design p{
+    margin-left: 6%;
+    margin-block-start: 5%;
+    font-size:80%;
+    justify-content: center;
+}
+.built{
+    
+    height: 20vh;
+    background-color:#5F5F80; 
+}
+.built h2{
+    margin-left: 6%;
+    margin-top: 6%;
+    justify-content: center;
+}
+.built p{
+    margin-left: 6%;
+    margin-block-start: 5%;
+    font-size:80%;
+    justify-content: center;
+}  
+.client{
+    background-image: url(P3_maquettes_et_images/box-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    /*background-color: slategray;*/
+    
+}
+.client h2{
+    margin-left: 6%;
+    margin-top: 6%;
+    justify-content: center;
+}
+.client p{
+    margin-left: 6%;
+    margin-block-start: 5%;
+    font-size:80%;
+    justify-content: center;
+}  
+.sign{
+    background-image: url(P3_maquettes_et_images/box-bg-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    /*background-color: tomato;*/
+    
+}
+.sign h2{
+    margin-left: 6%;
+    margin-top: 6%;
+    justify-content: center;
+}
+.sign p{
+    margin-left: 6%;
+    margin-block-start: 5%;
+    font-size:80%;
+    justify-content: center;
+}  
+.picture{
+    height: 20vh;
+    background-color: #82C99E;
+    
+}
+.picture h2{
+    margin-left: 6%;
+    margin-top: 6%;
+    justify-content: center;
+}
+.picture p{
+    margin-left: 6%;
+    margin-block-start: 5%;
+    font-size:80%;
+    justify-content: center;
+}  
+/*./SECTION2*/
+
+/*SECTION3*/
+.box1-3{
+    width: 100%;
+   /* height: 30%;*/
+    /*background-color: violet;*/
+
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+   
+    
+}
+.box1-3 p{
+font-size: 80%;
+color: grey;
+margin-block-end: 5%;
+}
+.box1-3 h3{
+    color: grey;
+}
+.box1-3 h2{
+    color:black;
+    margin-top: 7%;
+    margin-block-end: 7%;
+   height: 7%;
+
+}
+.web{
+    height: 15%;
+    margin-block-end: 5%;
+}
+
+.performance{
+    height: 15%;
+    margin-block-end: 5%;
+}
+
+.culture{
+    height: 15%;
+    margin-block-end: 5%;
+}
+
+.maintenance{
+    height: 15%;
+    margin-block-end: 5%;
+}
+
+
+/* ./SECTION3 */
+
+/*./BOX 1 */
+/*BOX2*/
+.box2{
+    width: 120%;
+    height: 90vh;
+    background-image: url(P3_maquettes_et_images/full-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+   
+}
+.box2-sign{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+    
+    
+}
+.box2-sign h1{
+margin-top:-27%;   
+margin-left: 7%;
+font-size: 270%;
+}
+.box2-sign p{
+    margin-top: 3%;
+    font-size: 70%;
+    margin-left: 7%;
+}
+
+/*./BOX2*/
+
+/*BOX3*/
+.box3{
+    width: 120%;
+   /* height: 80vh;*/
+    background-color:#82C99E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.box3-1{
+    margin-left: 10%;
+    margin-bottom: 25%;
+    margin-right: 11%;
+}
+.box3-1 h2{
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+.box3-web p{
+    margin-bottom: 7%;
+    font-size: 0.7em;
+}
+.box3-team p{
+    margin-bottom: 7%;
+    font-size: 0.7em;
+}
+.box3-support p{
+    margin-bottom: 7%;
+    font-size: 0.7em;
+}
+/*./BOX3*/
+
+/*BOX4*/
+.box4{
+    width: 100%;
+   /*height: 97vh;*/
+    background-color:#f4f8fb ;
+    display: flex;
+    flex-direction: column;
+ padding: 10%;
+}
+button{
+    border-radius: 12px;
+    height: 10px;  
+}
+.legacy:hover{
+    opacity: 0.7;
+}
+.solo{
+    margin-bottom: 20%;
+  
+    
+}
+.plan{
+    margin-bottom: 10%;
+   
+    
+}
+.windows{
+    fill:#c4c4c4;
+
+}
+.box4 p{
+    color:black;
+    font-size: 0.7em;
+    margin-bottom: 5%;
+}
+.box4 h2{
+    color: black;
+    margin-bottom: 5%;
+}
+/*img .windows{
+    fill : grey;
+}*/
+
+
+#legacy{
+    background-color:#c4c4c4;
+    color: white;
+    width: 24%;
+    height: 12%;
+    margin-bottom: 7%;
+
+}
+.buy{
+    color: white;
+    background-color: #82C99E;
+    width: 35%;
+    height: 12%;
+
+}
+#popular{
+    color: white;
+    background-color:#5F5F80;
+    width: 40%;
+    height: 12%;
+margin-bottom: 7%;
+}
+.plan-img, .solo-img{
+    margin-top: 4%;
+}
+/*./BOX4*/
+
+/*FOOTER*/
+.footer{
+   width: 100%;
+    background-color:#182432;
+    color: burlywood;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    padding: 10%;
+}
+.footer-1{
+   
+    margin-bottom: 7%;
+}
+.footer-1 p{
+    font-size: 0.8em;
+    margin-bottom: 5%;
+}
+.footer-2{
+   
+    margin-bottom: 10%;
+
+}
+.footer-2 p{
+    font-size: 0.8em;
+    margin-bottom: 5%;
+}
+.footer-3{
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 7%;
+}
+.footer-3 p{
+    font-size: 0.8em;
+    margin-bottom: 5%;
+}
+
+/*./FOOTER*/
+
+/*TABLETTE*/
+@media (min-width: 768px) and (max-width: 1024px)
+{ /*HEADER*/
+    .texte-header h1{
+        margin-bottom: 1%;
+        font-size: 425%;
+    }
+    .texte-header{
+        width: 40%;
+        margin-left:10%;
+        margin-top: 45%;
+        display: flex;
+        flex-direction: column;
+    justify-content: flex-start;
+    }
+   
+    .texte-header p{
+        font-size: 90%;
+    }
+    /*./HEADER*/
+    /*BOX1*/
+    /*SECTION1*/
+  .box1-1{
+padding :10%; 
+ }
+    .box1-1 h2{
+        width: 50%;
+        font-size: 200%;
+      
+    }
+    .box1-1 p{
+    
+        font-size: 100%;
+        color:grey;
+    
+    }
+    .box1-1-text{
+        display: flex;
+        flex-wrap: wrap;
+        
+      
+    }
+    #box1-p1{
+        width: 50%;
+
+    }
+    #box1-p2{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    /*./SECTION1*/
+    /*SECTION2*/
+  .section2{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+    .design{
+width: 50%; 
+height: 30vh;     
+}
+
+.design p{
+    
+    font-size:100%;
+}
+
+.built{
+    width: 50%;
+   height: 30vh;
+}
+.built p{
+  
+    font-size:100%;
+
+}  
+.client{
+   height: 30vh;
+    width: 50%;  
+}
+.client p{
+ 
+    font-size:100%;
+
+}  
+.sign{
+   height: 30vh;
+    width: 50%;
+    
+}
+
+.sign p{
+   
+    font-size:100%;
+    
+}  
+.picture{
+   height: 30vh;
+    width: 100%;     
+}
+
+.picture p{
+    font-size:100%;  
+}  
+/*./SECTION2*/
+/*SECTION3*/
+.box3-web{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.box1-3 p{
+    font-size: 100%;
+    }
+    .maintenance
+    .culture,
+    .performance,
+    .web{
+        width: 40%;
+ }
+    
+/*./SECTION3*/
+    /*./BOX1*/
+    /*BOX2*/
+
+    /*./BOX2*/
+}
+/*./TABLETTE */
